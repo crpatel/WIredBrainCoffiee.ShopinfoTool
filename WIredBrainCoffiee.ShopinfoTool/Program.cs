@@ -17,7 +17,7 @@ namespace WIredBrainCoffiee.ShopinfoTool
                 var coffeeShops = coffeeShopDataProvider.LoadCoffeeShops();
                 if(string.Equals("help",line,StringComparison.OrdinalIgnoreCase))
                 {
-                    Console.WriteLine("> Available Coffee Shop commands:");
+                    Console.WriteLine("> Available Coffee Shop all commands:");
                     foreach (var coffeeShop in coffeeShops)
                     {
                         Console.WriteLine($"> {coffeeShop.Location}");
