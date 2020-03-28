@@ -40,6 +40,7 @@ namespace WIredBrainCoffiee.ShopinfoTool
                         var coffeeShop = foundCoffeeShops.Single();
                         Console.WriteLine($"Location: {coffeeShop.Location}");
                         Console.WriteLine($"Beans in Stock: {coffeeShop.BeansInStockInKg} kg");
+                        Console.WriteLine($"Paper Cups in Stock {coffeeShop.PaperCup}");
                     }
                     else
                     {
